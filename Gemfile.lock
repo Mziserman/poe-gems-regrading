@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    io-wait (0.1.0)
+    net-http (0.1.1)
+      net-protocol
+      uri
+    net-protocol (0.1.0)
+      io-wait
+      timeout
+    timeout (0.1.1)
+    uri (0.10.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  net-http
+
+BUNDLED WITH
+   2.2.23
